@@ -81,7 +81,7 @@ function UserType(name) {
     let arr = [];
     for (let i = 0; i < name.length; ++i) {
         this[i] = name[i];
-        arr.push(name[i])
+        arr.push(name[i]);
         if (i + 1 === name.length) {
             Object.defineProperty(this, 'lengts', {
                 enumerable: true,
